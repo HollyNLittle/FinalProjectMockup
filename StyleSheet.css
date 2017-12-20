@@ -1,0 +1,44 @@
+﻿body {
+    color: rgb(99, 32, 66);
+    margin:2%;
+}
+
+header {
+    text-align: center;
+    font-family: Calibri;
+    margin-bottom: 20px;
+    padding: 2px 0;
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: rgb(201, 182, 132);
+}
+
+h2, a{
+    color: rgb(142, 133, 108);
+}
+
+p{
+    color:rgb(3, 36, 68);
+}
+
+red-button{
+    background-color:rgb(201, 182, 132);
+}
+
+button{
+    color:navy;
+    background-color:rgb(153, 135, 91);
+}
+
+
+input[type=text] {
+    border: 2px solid red;
+    border-radius: 4px;
+}
+
+.list-group{
+        background-color:rgb(153, 135, 91);
+
+}

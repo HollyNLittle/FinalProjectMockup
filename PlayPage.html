@@ -1,0 +1,408 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+    <link href="StyleSheet.css" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="Index.html">Project name</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Dashboard</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a href="#">Help</a></li>
+                </ul>
+                <form class="navbar-form navbar-right">
+                    <input type="text" class="form-control" placeholder="Search...">
+                </form>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <!-- Jumbotron -->
+    <div class="jumbotron">
+        <h1>Marketing stuff!</h1>
+        <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet.</p>
+        <p><a class="btn btn-lg btn-success red-button" href="#" role="button">Get started today</a></p>
+    </div>
+
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-lg-4">
+            <h2>Safari bug warning!</h2>
+            <p class="text-danger">As of v9.1.2, Safari exhibits a bug in which resizing your browser horizontally causes rendering errors in the justified nav that are cleared upon refreshing.</p>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+            <h2>Heading</h2>
+            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+        <div class="col-lg-4">
+            <h2>Heading</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
+            <p><a class="btn btn-primary" href="#" role="button">View details &raquo;</a></p>
+        </div>
+    </div>
+
+
+
+
+    <!--**************GLYPHICONS**************-->
+    <header>EXAMPLES</header>
+    <button type="button" class="btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-star" aria-hidden="true"></span> Star glyphicon button
+    </button>
+    <button type="button" class="btn btn-default btn-lg">
+        <span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+    </button>
+    <span class="glyphicon glyphicon-grain" aria-hidden="true"></span>
+    <span class="glyphicon glyphicon-triangle-left" aria-hidden="true"></span>
+    <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+
+
+    <button type="button" class="btn btn-danger btn-lg">
+        <span class="glyphicon glyphicon-header" aria-hidden="true"></span>
+    </button>
+
+    <!--USE GLYPHICON IN AN ALERT-->
+    <div class="alert alert-danger" role="alert">
+        <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+        <span class="sr-only">Error:</span>
+        Enter a valid email address
+    </div>
+
+    <!--**************GROUPED BUTTONS**************-->
+    <div class="btn-group" role="group" aria-label="...">
+        <button type="button" class="btn btn-default">1</button>
+        <button type="button" class="btn btn-default">2</button>
+
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Dropdown link</a></li>
+                <li><a href="#">Dropdown link</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!--BASIC-->
+    <div class="btn-group" role="group" aria-label="...">
+        <button type="button" class="btn btn-default">Left</button>
+        <button type="button" class="btn btn-default">Middle</button>
+        <button type="button" class="btn btn-default">Right</button>
+    </div>
+
+    <!--VERTICAL-->
+    <h1>Vertical</h1>
+    <div class="btn-group-vertical" role="group" aria-label="...">
+        <button type="button" class="btn btn-default">1</button>
+        <button type="button" class="btn btn-default">2</button>
+
+        <div class="btn-group" role="group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+                <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a href="#">Dropdown link</a></li>
+                <li><a href="#">Dropdown link</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <h1>Button toolbar</h1>
+    <div class="btn-toolbar" role="toolbar" aria-label="...">
+        <div class="btn-group" role="group" aria-label="...">ONE</div>
+        <div class="btn-group" role="group" aria-label="...">ANOTHER</div>
+        <div class="btn-group" role="group" aria-label="...">MORE</div>
+    </div>
+
+    <!--PILLS-->
+    <h1>Pills</h1>
+    <ul class="nav nav-pills">
+        <li role="presentation" class="active"><a href="#">Home</a></li>
+        <li role="presentation"><a href="#">Profile</a></li>
+        <li role="presentation"><a href="#">Messages</a></li>
+    </ul>
+
+    <ul class="nav nav-pills nav-stacked">
+        <li role="presentation" class="active"><a href="#">Home</a></li>
+        <li role="presentation"><a href="#">Profile</a></li>
+        <li role="presentation"><a href="#">Messages</a></li>
+    </ul>
+
+
+    <!--************** NAVBAR **************-->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-header" aria-hidden="true"></span></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Link</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Action</a></li>
+                            <li><a href="#">Another action</a></li>
+                            <li><a href="#">Something else here</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Separated link</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">One more separated link</a></li>
+                        </ul>
+                        <form class="navbar-form navbar-left">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </form>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#">Link</a></li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Action</a></li>
+                                    <li><a href="#">Another action</a></li>
+                                    <li><a href="#">Something else here</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="#">Separated link</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <!--************** EMAIL INPUT **************-->
+    <div class="input-group">
+        <input type="text" class="form-control" placeholder="Recipient's username" aria-describedby="basic-addon2">
+        <span class="input-group-addon" id="basic-addon2">@example.com</span>
+    </div>
+    <!--************** THUMBNAILS **************-->
+    <h1>thumbnails</h1>
+    <div class="row">
+        <div class="col-xs-6 col-md-3">
+            <a href="#" class="thumbnail">
+                <img src="bar-caffe-157213.jpeg" />
+            </a>
+        </div>
+        ...
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail">
+                <img src="ddt_3.jpg" />
+                <div class="caption">
+                    <h3>Thumbnail label</h3>
+                    <p>
+                        Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
+                        Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum.
+                    </p>
+                    <p><a href="#" class="btn btn-primary" role="button">Button</a> <a href="#" class="btn btn-default" role="button">Button</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1>Media object</h1>
+    <div class="media">
+        <div class="media-left">
+            <a href="#">
+                <img src="globe-269724.jpg" />
+            </a>
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Media heading</h4>
+            <p>
+                Linkify list group items by using anchor tags instead of list items.
+                Linkify list group items by using anchor tags instead of list items.
+            </p>
+        </div>
+    </div>
+
+    <div class="media">
+        <div class="media-left media-middle">
+            <a href="#">
+                <img src="6CWJTD9QWN.jpg" />
+            </a>
+        </div>
+        <div class="media-body">
+            <h4 class="media-heading">Middle aligned media</h4>
+            <p>
+                Linkify list group items by using anchor tags instead of list items.
+            </p>
+        </div>
+    </div>
+
+    <h1>
+        Linked items
+    </h1>
+    <p>
+        Linkify list group items by using anchor tags instead of list items.
+    </p>
+    <div class="list-group">
+        <a href="#" class="list-group-item active">
+            Cras justo odio
+        </a>
+        <a href="#" class="list-group-item">Dapibus ac facilisis in</a>
+        <a href="#" class="list-group-item">Morbi leo risus</a>
+        <a href="#" class="list-group-item">Porta ac consectetur ac</a>
+        <a href="#" class="list-group-item">Vestibulum at eros</a>
+    </div>
+
+    <h1> Button items</h1>
+    <p> List group items may be buttons instead of list items </p>
+    <div class="list-group">
+        <button type="button" class="list-group-item">Cras justo odio</button>
+        <button type="button" class="list-group-item">Dapibus ac facilisis in</button>
+        <button type="button" class="list-group-item">Morbi leo risus</button>
+        <button type="button" class="list-group-item">Porta ac consectetur ac</button>
+        <button type="button" class="list-group-item">Vestibulum at eros</button>
+    </div>
+
+
+    <h1>Contextual classes</h1>
+    <p>
+        Use contextual classes to style list items, default or linked. Also includes .active state.
+    </p>
+    <ul class="list-group">
+        <li class="list-group-item list-group-item-success">Dapibus ac facilisis in</li>
+        <li class="list-group-item list-group-item-info">Cras sit amet nibh libero</li>
+        <li class="list-group-item list-group-item-warning">Porta ac consectetur ac</li>
+        <li class="list-group-item list-group-item-danger">Vestibulum at eros</li>
+    </ul>
+    <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-success">Dapibus ac facilisis in</a>
+        <a href="#" class="list-group-item list-group-item-info">Cras sit amet nibh libero</a>
+        <a href="#" class="list-group-item list-group-item-warning">Porta ac consectetur ac</a>
+        <a href="#" class="list-group-item list-group-item-danger">Vestibulum at eros</a>
+    </div>
+
+
+
+    <div class="list-group">
+        <a href="#" class="list-group-item active">
+            <h4 class="list-group-item-heading">List group item heading</h4>
+            <p class="list-group-item-text">...</p>
+        </a>
+    </div>
+
+
+
+    <h1>Panels with Tables</h1>
+    <h3>Panel with body</h3>
+    <div class="panel panel-primary">
+        <div class="panel-heading">Panel heading</div>
+        <div class="panel-body">
+            <p>
+                Aenean eu leo quam. Pellentesque ornare sem lacinia quam.
+                Nullam id dolor id nibh ultricies vehicula ut id elit.
+            </p>
+        </div>
+
+        <!-- Table -->
+        <table class="table"></table>
+    </div>
+
+    <h3>Panel with no body</h3>
+    <div class="panel panel-danger">
+        <div class="panel-heading">Panel heading</div>
+
+        <table class="table">
+            ...
+        </table>
+    </div>
+
+
+
+
+
+
+    <div class="panel panel-default">
+        <div class="panel-heading"><h1>Panel heading</h1></div>
+        <div class="panel-body">
+            <p>
+                Aenean eu leo quam. Pellentesque ornare sem lacinia quam.
+                Nullam id dolor id nibh ultricies vehicula ut id elit.
+            </p>
+        </div>
+
+        <!-- List group -->
+        <ul class="list-group">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+        </ul>
+    </div>
+
+
+    <h1>Default well</h1>
+    <div class="well">Use the well as a simple effect on an element to give it an inset effect.</div>
+    <div class="well well-lg">Large well</div>
+    <div class="well well-sm">Large well</div>
+
+
+
+
+
+
+    <!-- Scripts
+    ================================================== -->
+    <!--Font Awesome-->
+    <!-- Scripts -->
+    <script src="https://use.fontawesome.com/116c5da17a.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="JavaScript.js"></script>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
